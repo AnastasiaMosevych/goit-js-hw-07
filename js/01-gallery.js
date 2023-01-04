@@ -27,6 +27,6 @@ function onGalleryClick(event) {
         });
 
     instance.show();
-    };
+    };``
 };
 
