@@ -21,6 +21,7 @@ function onGalleryClick(event) {
             function onKeyDown(event) {
                 if (event.key === 'Escape') {
                     instance.close();
+                    document.removeEventListener('keydown', onKeyDown);
                 }
             }
             }
